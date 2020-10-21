@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title> Form </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Login</title>
+	</head>
+
+	<body>
+		<form action="login.php" method="POST">
+        <fieldset>
+        <legend>Login</legend>
+        <p>
+           <label>Email:</label>
+           <input type="email" name="email" placeholder="...@gmail" />
+        </p>
+        <p>
+            <label>Password:</label>
+            <input type="password" name="Password" placeholder=".." />
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Login" />
+        </p>
+        <p>
+            <a href="file:///D:/XAMPP1/htdocs/tugas%204/form" target="_blank">Sign up</a>
+        </p>
+        </fieldset>
+    </form>
+	</body>
+</html>
+
